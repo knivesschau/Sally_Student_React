@@ -1,0 +1,45 @@
+html {
+    height: 100vh;
+}
+
+body {
+    height: 100%;
+}
+
+nav {
+    background-color: plum; 
+}
+
+nav > ul {
+    list-style: none; 
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 2em;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    text-align: center;
+    color: purple;
+    font-weight: bolder;
+    font-size: 1em;
+}
+
+h3 {
+    color: palevioletred;
+}
+
+h4 {
+    margin-left: 1em;
+    margin-right: 1em;
+    color: purple;
+}
+
+section {
+    margin-left: 1em;
+    margin-right: 1em;
+    word-wrap: break-word;
+}

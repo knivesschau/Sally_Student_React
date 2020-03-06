@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sally Student's Resume</title>
+</head>
+<body>
+    
+    <div id="app-root">
+
+    </div>
+
+
+
+    <script
+    src="https://unpkg.com/react@16/umd/react.development.js">
+    </script>
+
+    <script
+    src="https://unpkg.com/react-dom@16/umd/react-dom.development.js">
+    </script>
+
+    <script
+        src="https://unpkg.com/babel-standalone@6/babel.min.js">
+    </script>
+
+    <script type="text/babel">
+        function App() {
+            return (
+            <main>
+                <nav>
+                    <ul>
+                        <li> <a href="/">Home</a> </li>
+                        <li> <a href ="/About_Me">About Me</a></li>
+                        <li> <a href= "/Social_Media">Social Media</a> </li>
+                        <li> <a href="/Other_Works">Side Projects</a> </li>
+                    </ul>
+                </nav>
+        <header>
+                <h1> Sally Student </h1>
+                <h2> Culinary Hostess Extraordinaire </h2>
+        </header>
+
+            <section>
+                <h3> Education </h3>
+                <h4> Culinary Institute of America, 2005-2009 </h4>
+                <ul>
+                    <li> BBA in Food Business Management, Specialization in Culinary Arts </li>
+                </ul>
+            </section>
+
+            <section>
+                <h3> Employment History </h3>
+                <h4> Hostess (Bob's Burgers), 2009 - Present </h4>
+                <ul>
+                    <li> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </li>
+                    </ul> 
+                    <h4> Cashier (Fresh Feed), 2006 - 2009 </h4>
+                    <ul>
+                    <li> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </li>
+                    </ul>
+            </section>
+
+            <section>
+            <h3> Contact Information </h3>
+            <address> 
+                <p> E-mail: <a href= "mailto:sallythinkful@gmail.com?subject=Inquiries for Sally's Resume" target="blank">sallythinkful@gmail.com</a></p>
+                <p> Telephone: (999) 999-9999 </p>
+            </address>
+                <img src = "https://vignette.wikia.nocookie.net/bobsburgerpedia/images/b/b7/Lindab.png/revision/latest?cb=20130113071354" alt = "sally student">
+                </img>
+            </section>
+        </main>
+            )
+        }
+    
+    ReactDOM.render(
+        <App /> ,
+        document.querySelector("#app-root")
+        );
+    
+    </script>
+
+</body>
+</html>
